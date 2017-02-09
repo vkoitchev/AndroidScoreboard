@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.example.o602593.scoreboard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Team A" />
+
+        <TextView
+            android:id="@+id/team_A_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/left_2_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+2 points"/>
+
+        <Button
+            android:id="@+id/left_3_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+3 points"/>
+
+        <Button
+            android:id="@+id/left_5_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+5 points"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Team B" />
+
+        <TextView
+            android:id="@+id/team_B_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/right_2_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+2 points"/>
+
+        <Button
+            android:id="@+id/right_3_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+3 points"/>
+
+        <Button
+            android:id="@+id/right_5_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+5 points"/>
+
+    </LinearLayout>
+
+</LinearLayout>
