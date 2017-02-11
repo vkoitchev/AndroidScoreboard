@@ -25,7 +25,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Team A"
+                android:text="Home"
                 android:textSize="33dp" />
 
             <TextView
@@ -35,13 +35,6 @@
                 android:gravity="center"
                 android:text="0"
                 android:textSize="40dp" />
-
-            <Button
-                android:id="@+id/left_2_points"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="5dp"
-                android:text="+2 points" />
 
             <Button
                 android:id="@+id/left_3_points"
@@ -55,7 +48,14 @@
                 android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+5 points" />
+                android:text="TRY!" />
+
+            <Button
+                android:id="@+id/left_2_points"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Conversion" />
 
         </LinearLayout>
 
@@ -69,7 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Team B"
+                android:text="Away"
                 android:textSize="33dp" />
 
             <TextView
@@ -79,13 +79,6 @@
                 android:gravity="center"
                 android:text="0"
                 android:textSize="40dp" />
-
-            <Button
-                android:id="@+id/right_2_points"
-                android:layout_margin="5dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="+2 points" />
 
             <Button
                 android:id="@+id/right_3_points"
@@ -99,7 +92,14 @@
                 android:layout_margin="5dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="+5 points" />
+                android:text="TRY!" />
+
+            <Button
+                android:id="@+id/right_2_points"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Conversion" />
 
         </LinearLayout>
     </LinearLayout>
